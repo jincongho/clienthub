@@ -1,6 +1,7 @@
-# clienthub (deprecated)
+# Clienthub (deprecated)
 
 A flexible client information management system written in PHP. 
+Developed in 2011. No longer maintained.
 
 # Features
 
