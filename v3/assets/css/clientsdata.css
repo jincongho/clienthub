@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+
+.ui-sortable{
+	list-style-type: none;
+}
+
+.ui-sortable li{
+	cursor: pointer;
+	padding: 5px 7px;
+	background: #fff;
+	margin-bottom: 3px;
+	border: 1px solid #ccc;
+}
+
+.ui-sortable li b{
+	color: #2592bd;
+}
+
+.ui-sortable > li > div{
+	display: none;
+	padding: 5px 5px 0 5px;
+}
+
+.ui-sortable .error{
+	color: #fff;
+	background: #ff0000;
+}

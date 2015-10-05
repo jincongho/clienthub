@@ -1,0 +1,109 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+	font-family: Papyrus, Sans-Serif;
+	background: #efefef;
+}
+
+h2 {
+	color: #555555;
+	font-size: 18px;
+}
+
+.wrap {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.selected {
+	color: #ffffff;
+	background: #0066ff;
+}
+
+.error {
+	color: #ff0000;
+}
+
+.tooltip {
+	padding: 10px;
+	background: #ffff66;
+}
+
+#header {
+	border-bottom: 2px #000000 solid;
+}
+
+#header h1 {
+	cursor: pointer;
+	text-align: center;
+	font-size: 36px;
+	font-weight: 900;
+	padding-top：
+	30px;
+}
+
+#header ul {
+	list-style-type: none;
+	margin: 0px 0px 0px 50px;
+	padding: 0px;
+}
+
+#header ul li {
+	float: left;
+	height: 25px;
+	margin-top: 2px;
+	padding: 5px 10px;
+}
+
+#header ul li:hover {
+	color: #ffffff;
+	cursor: pointer;
+	background: #0066ff;
+}
+
+#contents {
+	clear: both;
+	width: 860px;
+	padding: 10px;
+}
+
+#left {
+	float: left;
+	width：
+	780px;
+}
+
+#left p label {
+	float: left;
+	width: 190px;
+	display: block;
+	margin-right: 5px;
+}
+
+#left table thead th {
+	padding: 2px 10px;
+	color: #ffffff;
+	width: 100px;
+	background: #0066ff;
+}
+
+#left table tbody th {
+	word-break: break-all;
+}
+
+.action{
+	width: 60px;
+}
+
+.company{
+	width: 140px;
+}
+
+#right {
+	float: right;
+	width: 180px;
+}

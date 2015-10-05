@@ -1,0 +1,156 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 18px;
+	font-family: arial, helvetica, sans-serif;
+	background: rgb(216, 219, 224) no-repeat;
+	background-image: linear-gradient(bottom, rgb(216, 219, 224) 85%,
+		rgb(255, 255, 255) 100% );
+	background-image: -o-linear-gradient(bottom, rgb(216, 219, 224) 85%,
+		rgb(255, 255, 255) 100% );
+	background-image: -moz-linear-gradient(bottom, rgb(216, 219, 224) 85%,
+		rgb(255, 255, 255) 100% );
+	background-image: -webkit-linear-gradient(bottom, rgb(216, 219, 224) 85%,
+		rgb(255, 255, 255) 100% );
+	background-image: -ms-linear-gradient(bottom, rgb(216, 219, 224) 85%,
+		rgb(255, 255, 255) 100% );
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.85, rgb(216
+		, 219, 224) ), color-stop(1, rgb(255, 255, 255) ) );
+}
+
+h2 {
+	margin: 5px 0px;
+}
+
+a {
+	color: #0000ff;
+	text-decoration: none;
+}
+
+#contents label {
+	float: left;
+	width: 190px;
+	display: block;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0px auto;
+}
+
+.error {
+	color: #ff0000;
+}
+
+.tooltip {
+	padding: 10px;
+	background: #ffff66;
+}
+
+.navBtn {
+	width: 142px;
+	height: 142px;
+	border: none;
+	cursor: pointer;
+	margin: 8px 30px;
+	padding: 8px;
+	text-align: center;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: 0px 0px 8px #000000;
+	-moz-box-shadow: 0px 0px 8px #000000;
+	box-shadow: 0px 0px 8px #000000;
+	background-image: linear-gradient(bottom, rgb(220, 220, 220) 25%,
+		rgb(255, 255, 255) 100% );
+	background-image: -o-linear-gradient(bottom, rgb(220, 220, 220) 25%,
+		rgb(255, 255, 255) 100% );
+	background-image: -moz-linear-gradient(bottom, rgb(220, 220, 220) 25%,
+		rgb(255, 255, 255) 100% );
+	background-image: -webkit-linear-gradient(bottom, rgb(220, 220, 220) 25%,
+		rgb(255, 255, 255) 100% );
+	background-image: -ms-linear-gradient(bottom, rgb(220, 220, 220) 25%,
+		rgb(255, 255, 255) 100% );
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.25, rgb(220
+		, 220, 220) ), color-stop(1, rgb(255, 255, 255) ) );
+}
+
+.navBtn:active {
+	background-image: linear-gradient(bottom, rgb(255, 255, 255) 0%,
+		rgb(220, 220, 220) 75% );
+	background-image: -o-linear-gradient(bottom, rgb(255, 255, 255) 0%,
+		rgb(220, 220, 220) 75% );
+	background-image: -moz-linear-gradient(bottom, rgb(255, 255, 255) 0%,
+		rgb(220, 220, 220) 75% );
+	background-image: -webkit-linear-gradient(bottom, rgb(255, 255, 255) 0%,
+		rgb(220, 220, 220) 75% );
+	background-image: -ms-linear-gradient(bottom, rgb(255, 255, 255) 0%,
+		rgb(220, 220, 220) 75% );
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(255,
+		255, 255) ), color-stop(0.75, rgb(220, 220, 220) ) );
+}
+
+.navBtn img {
+	cursor: pointer;
+	width: 102px;
+	height: 102px;
+}
+
+.navBtn label {
+	cursor: pointer;
+	font-size: 16px;
+}
+
+table {
+	word-wrap: break-word;
+	/* Internet Explorer 5.5+ */
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+table thead th {
+	padding: 2px 10px;
+	color: #000000;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+table tbody td {
+	max-width: 80px;
+}
+
+table .id{
+	max-width: 15px;
+}
+
+table .company{
+	max-width: 140px;
+}
+
+table .photo {
+	max-width: 130px;
+}
+
+
+#navigator {
+	margin-top: 12px;
+	text-align: center;
+}
+
+#container {
+	margin-top: 12px;
+	width: 766px;
+	background: #ffffff;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: 0px 0px 8px #000000;
+	-moz-box-shadow: 0px 0px 8px #000000;
+	box-shadow: 0px 0px 8px #000000;
+}
+
+#contents {
+	padding: 10px 15px;
+}
